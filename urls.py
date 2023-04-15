@@ -19,5 +19,4 @@ routes = {
     '/another/': Another(),
     '/examples/': Examples(),
     '/page/': Page(),
-
 }
