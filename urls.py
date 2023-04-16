@@ -1,5 +1,5 @@
 from datetime import date
-from views import Index, Contact, Another, Examples, Page
+from views import Index, Contact, Another, Examples, Page, MessageView
 
 
 # front controller
@@ -19,4 +19,5 @@ routes = {
     '/another/': Another(),
     '/examples/': Examples(),
     '/page/': Page(),
+    '/message/': MessageView(),
 }
