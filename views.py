@@ -5,7 +5,7 @@ from design_framework.templator import render
 
 class Index:
     def __call__(self, request):
-        return '200 OK', render('index_1.html', date=request.get('date', None))
+        return '200 OK', render('index.html', date=request.get('date', None))
 
 
 class Contact:
