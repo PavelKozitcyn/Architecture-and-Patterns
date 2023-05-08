@@ -1,5 +1,6 @@
 from datetime import date
-from views import Index, Contact, Another, Examples, Page, MessageView
+from views import Index, About, StudyPrograms, CoursesList, \
+    CreateCourse, CreateCategory, CategoryList, CopyCourse
 
 
 # front controller
@@ -15,9 +16,11 @@ fronts = [secret_front, other_front]
 
 routes = {
     '/': Index(),
-    '/contact/': Contact(),
-    '/another/': Another(),
-    '/examples/': Examples(),
-    '/page/': Page(),
-    '/message/': MessageView(),
+    '/about/': About(),
+    '/study_programs/': StudyPrograms(),
+    '/courses-list/': CoursesList(),
+    '/create-course/': CreateCourse(),
+    '/create-category/': CreateCategory(),
+    '/category-list/': CategoryList(),
+    '/copy-course/': CopyCourse()
 }
