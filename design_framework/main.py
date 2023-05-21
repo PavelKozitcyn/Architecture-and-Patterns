@@ -1,5 +1,4 @@
 import quopri
-from quopri import decodestring
 from design_framework.request import GetRequests, PostRequests
 
 

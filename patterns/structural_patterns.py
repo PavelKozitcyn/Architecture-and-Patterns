@@ -48,7 +48,3 @@ class Debug:
 
         return timeit(cls)
 
-
-#func()
-#obj = MyClass()
-#obj()
